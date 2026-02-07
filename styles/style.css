@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;  
   align-items: center;
-  margin: 22px 24px 96px 24px;
+  margin: 35px 24px 96px 24px;
 }
 
 .header_menu {
@@ -72,8 +72,8 @@
 
 .header_contacts {
   text-decoration: underline;
-  text-underline-offset: 0.18rem;
-  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 /* Cover */
@@ -85,6 +85,7 @@
   background-position: center;
   padding: 165px 50px 50px 50px;
   z-index: 0;
+  height: 757px;
 }
 
 .cover_title {
@@ -114,18 +115,19 @@
   color: rgb(255 255 255);
 }
 
-.aligned_text_start  { 
+.aligned_text_start {
   grid-column: 1 / 4; 
   text-align: left;
   letter-spacing: 1.89rem;
-
 }
+
 .aligned_text_center { 
   grid-column: 1 / 4; 
   text-align: center; 
   margin-left: 3%;
 }
-.aligned_text_end    { 
+
+.aligned_text_end { 
   grid-column: 1 / 4; 
   text-align: right;
   margin-right: -30px;
@@ -136,6 +138,7 @@
   transform: scaleX(0.996); 
   transform-origin: left;
 }
+
 .cover_description {
   display: flex;
   position: relative;
@@ -273,7 +276,7 @@
 
 .about_column_logo {
   justify-self: center;
-  padding: 0 1px 0 30px;
+  padding: 0 2px 0 30px;
 }
   
 .about_logo {
@@ -302,7 +305,7 @@
   font-weight: bold;
   font-size: 40px; 
   line-height: 1;
-  margin-top: 105px;
+  margin-top: 106px;
 }
   
 .about_column_text {
