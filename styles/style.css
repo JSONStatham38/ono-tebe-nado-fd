@@ -9,7 +9,8 @@
 }
 
 .header_menu {
-  margin-left: 1px; 
+  margin-bottom: 5px;
+  margin-left: 7px;
 }
 
 .header_links_list {
@@ -19,14 +20,12 @@
   justify-content: center;
   text-align: right;
   column-gap: 29px;
-  margin: 0;
-  padding: 0;
 }
 
 .header_links_list_item {
   list-style-type: circle; 
-  padding-left: 1.7px;
-  margin-left: 2px;
+  padding-left: 2.3px;
+  margin-left: 2.2px;
 }
 
 .header_links_list_item_no_bullit {
@@ -52,21 +51,24 @@
   justify-self: center;
   align-self: center;
   width: 137px;
-  padding-top: 1px;
+  height: 105px;
+  margin-left: 1px;
+  margin-bottom: 2.3px;
 }
 
 .header_logo_image {
   display: block;
-  width: 100%;
+  width: 137px;
+  height: 104.65px;
 }
 
 .header_address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-self: end;
-  margin-right: 35px;
-  padding-top: 1px;
+  justify-self: center;
+  margin-left: 105px;
+  margin-bottom: 3.4px;
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
@@ -74,8 +76,10 @@
 }
 
 .header_contacts {
+  position: relative;
+  top: -0.01rem;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3.6px;
   text-decoration-thickness: 1px;
 }
 
@@ -127,6 +131,7 @@
 .aligned_text_center { 
   grid-column: 1 / 4; 
   text-align: center; 
+  margin-top: 1px;
   margin-left: 3%;
 }
 
@@ -159,6 +164,8 @@
   color: rgb(255 255 255);
   word-spacing: 20px;
   text-transform: uppercase;
+  padding: 4px 0 0 0;
+  line-height: 28px;
 }
 
 .word_spacing_analogue {
@@ -168,7 +175,7 @@
 .bet_button {
   border: 1px rgb(255 255 255) solid;
   background-color: transparent;
-  padding: 12px 31px; 
+  padding: 11px 32px; 
   margin-left: auto;
   word-spacing: 1px;
   color: rgb(255 255 255);
@@ -180,7 +187,7 @@
 
 .lots {
   display: grid;
-  margin: 185px 24px 120px;
+  margin: 184px 24px 120px;
   width: 1052px;
   height: 723px;
 }
@@ -202,7 +209,7 @@
 .lots_card_list_item {
   width: 334px;
   min-height: 596px;
-  margin: 29px 0 31px 0;
+  margin: 26px 0 31px 0;
   background-size: cover;
   background-position: center;
   list-style: none;
@@ -218,10 +225,10 @@
   flex-direction: column;
   position: relative;
   justify-content: space-between;
-  height: 100%;
+  height: 596px;
   background-position: center;
   background-size: 165% 101%;
-  padding: 48px 40px; 
+  padding: 46px 40px; 
 }
 
 .card_title {
@@ -230,15 +237,17 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-thickness: 0.07em;
-  text-underline-offset: 0.095rem;
-  line-height: 120%;
+  text-underline-offset: 0.18rem;
+  line-height: 118%;
   color: #ffffff;
   z-index: 2;
+  padding-top: 3px;
 }
 .card_text {
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
+  padding-top: 37px;
   color: #ffffff;
   z-index: 2;  
 }
@@ -261,9 +270,8 @@
   font-size: 20px;
   line-height: 100%;
   text-decoration: underline;      
-  text-underline-offset: 0.33rem;
+  text-underline-offset: 0.28rem;
   text-decoration-thickness: 1.3px;
-  padding-bottom: 10px;
 }
 
 /* About */
@@ -271,16 +279,15 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 27px 10px 180px 10px;  
   margin-top: 0;
   max-width: 1052px;
-  column-gap: 38px;
+  column-gap: 48.7px;
   height: 595px;
 }
 
 .about_column_logo {
   justify-self: center;
-  padding: 0 2px 0 30px;
+  padding: 31px 0px 0 48px;
 }
   
 .about_logo {
@@ -309,7 +316,7 @@
   font-weight: bold;
   font-size: 40px; 
   line-height: 1;
-  margin-top: 106px;
+  padding-top: 136px;
 }
   
 .about_column_text {
@@ -348,10 +355,11 @@
 .footer {
   display: grid;
   grid-template-columns: 287px  auto auto;
-  column-gap: 164px;
+  column-gap: 163px;
   align-items: start;
   max-width: 1100px;
   height: 180px;
+  margin-top: 176px;
 }
 
 .footer_address {
@@ -362,7 +370,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  margin-left: 50px;
+  padding-top: 1px;
 }
 
 .footer_contacts {
@@ -385,7 +393,7 @@
 }
 
 .footer_links_list_item {
-  margin-bottom: 1px;
+  padding: 0 0 0.1px 1px;
 }
 
 .footer_link {
