@@ -227,7 +227,7 @@
   height: 596px;
   background-position: center;
   background-size: 165% 101%;
-  padding: 47px 40px;
+  padding: 48px 40px;
 }
 
 .card_title {
@@ -240,7 +240,6 @@
   line-height: 118%;
   color: #ffffff;
   z-index: 2;
-  padding-top: 2px;
 }
 .card_text {
   font-size: 20px;
@@ -417,6 +416,11 @@
   gap: 48px;
 }
 
+.footer_social_link_list_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer_social_link {
   display: block;
@@ -427,10 +431,4 @@
   display: block;
   width: 48px;
   height: 48px;
-}
-
-.footer_social_link_list_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
