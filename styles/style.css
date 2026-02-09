@@ -411,7 +411,7 @@
  
 .footer_social_list {
   display: flex;
-  align-items: flex-start;           
+  align-items: flex-start;
   justify-content: left;
   list-style: none;
   gap: 48px;
@@ -425,11 +425,10 @@
 
 .footer_social_icon {
   display: block;
-  width: 48px;            
+  width: 48px;
   height: 48px;
 }
 
-/* Запасные классы для аукционного футера */
 .footer_social_link_list_item {
   display: flex;
   justify-content: center;
